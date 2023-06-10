@@ -14,7 +14,8 @@ public class Main {
         int amount = 5276;
         int bonus = 1;
         int each = 20;
+        int miles = amount / each * bonus;
 
-        System.out.println((amount/each*bonus)) + " Мили ");
+        System.out.println("Мили на счету: " + miles );
     }
 }
