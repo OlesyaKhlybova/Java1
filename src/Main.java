@@ -15,6 +15,6 @@ public class Main {
         int bonus = 1;
         int each = 20;
 
-        System.out.println((amount/each) + " Мили ");
+        System.out.println((amount/each*bonus)) + " Мили ");
     }
 }
